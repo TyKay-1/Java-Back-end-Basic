@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Create New Account</h1>
+        <form action="MainController" method="POST">
+            Username: <input type="text" name="txtUsername"/> (6 - 20 char)<br/>
+            Password: <input type="password" name="txtPassword"/> (6 - 30 char)<br/>
+            Confirm Password: <input type="password" name="txtConfirm"/><br/>
+            Last name: <input type="text" name="txtLastname"/> (2 - 50 char)<br/>
+            <br>
+            <input type="submit" value="Create account" name="btAction" />
+            <input type="reset" value="Reset" name="btReset"/><br/>
+        </form>
+        <br>
+        <a href="Login.html">Back to Login</a>
+    </body>
+</html>

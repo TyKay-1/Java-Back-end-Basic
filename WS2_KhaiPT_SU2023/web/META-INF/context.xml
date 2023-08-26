@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/WS2_KhaiPT_SU2023">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="KhaiPT_SU23" password="12345" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=KhaiPT_SU23;instanceName=MYSQL" username="sa"/>
+</Context>
